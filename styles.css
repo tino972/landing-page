@@ -38,6 +38,46 @@ body {
     font-size: 18px;
 }
 
+.hero {
+    background-color: #1f2937;
+    padding: 64px 150px;
+    display: flex;
+    gap: 18px;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-left .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left .sub-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 28px;
+    margin-top: 8px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.hero-right {
+    background-color: grey;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     background-color: #1f2937;
     margin-top: auto;
