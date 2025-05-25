@@ -58,6 +58,7 @@ body {
 .hero-left .sub-text {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: lighter;
 }
 
 .hero-left button {
@@ -115,6 +116,7 @@ body {
 
 .info-item-text {
     text-align: center;
+    font-weight: lighter;
 }
 
 .footer {
