@@ -119,6 +119,32 @@ body {
     font-weight: lighter;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text,
+.quote-author {
+    width: 700px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
 .footer {
     background-color: #1f2937;
     margin-top: auto;
