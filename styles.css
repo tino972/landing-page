@@ -145,6 +145,44 @@ body {
     font-weight: bold;
 }
 
+.action {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    width: 800px;
+    border-radius: 8px;
+    padding: 36px 72px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action-text,
+.action-button {
+    color: #f9faf8;
+}
+
+.action-title {
+    font-weight: bold;
+}
+
+.action-subtext {
+    font-weight: lighter;
+}
+
+.action-button {
+    background-color: #3882f6;
+    font-weight: bold;
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
+    padding: 8px 36px;
+
+}
+
 .footer {
     background-color: #1f2937;
     margin-top: auto;
