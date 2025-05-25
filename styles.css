@@ -3,5 +3,50 @@
 }
 
 body {
+    min-height: 100vh;
     font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 8px 150px;
+}
+
+.left-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.right-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
